@@ -4,11 +4,11 @@ import java.util.List;
 
 public class Sandwich {
 
-    private String mainName;
+    private String mainName ;
     private List<String> alsoKnownAs = null;
-    private String placeOfOrigin;
-    private String description;
-    private String image;
+    private String placeOfOrigin ;
+    private String description ;
+    private String image ;
     private List<String> ingredients = null;
 
     /**
@@ -73,4 +73,6 @@ public class Sandwich {
     public void setIngredients(List<String> ingredients) {
         this.ingredients = ingredients;
     }
+
+
 }
