@@ -7,7 +7,6 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
         <TextView
             android:id="@+id/main_name"
             android:layout_width="wrap_content"
@@ -19,10 +18,9 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginLeft="16dp"/>
-
         <TextView
             android:id="@+id/main_name_tv"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text=""
             app:layout_constraintLeft_toRightOf="@+id/main_name"
@@ -31,7 +29,6 @@
             android:layout_marginTop="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginLeft="53dp"/>
-
         <TextView
             android:id="@+id/also_known_as"
             android:layout_width="wrap_content"
@@ -43,10 +40,9 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginLeft="16dp"/>
-
         <TextView
             android:id="@+id/also_known_tv"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text=""
             app:layout_constraintLeft_toLeftOf="parent"
@@ -55,7 +51,6 @@
             android:layout_marginTop="16dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"/>
-
         <TextView
             android:id="@+id/place_of_origin"
             android:layout_width="wrap_content"
@@ -67,10 +62,9 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginLeft="16dp"/>
-
         <TextView
             android:id="@+id/origin_tv"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text=""
             app:layout_constraintLeft_toRightOf="@+id/place_of_origin"
@@ -79,7 +73,6 @@
             android:layout_marginTop="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginLeft="32dp"/>
-
         <TextView
             android:id="@+id/description_label"
             android:layout_width="wrap_content"
@@ -91,21 +84,15 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginLeft="16dp"/>
-
         <TextView
             android:id="@+id/description_tv"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-
             app:layout_constraintLeft_toLeftOf="parent"
-
             app:layout_constraintTop_toBottomOf="@+id/description_label"
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="16dp"
-
-            android:layout_marginLeft="16dp"
-          />
-
+            android:layout_marginLeft="16dp" />
         <ImageView
             android:id="@+id/image_iv"
             android:layout_width="match_parent"
@@ -115,10 +102,7 @@
             android:scaleType="centerCrop"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/description_tv"
-
-            android:layout_marginTop="30dp"
-           />
-
+            android:layout_marginTop="30dp"/>
         <TextView
             android:id="@+id/ingredients_label"
             android:layout_width="wrap_content"
@@ -130,10 +114,9 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="30dp"
             android:layout_marginLeft="16dp"/>
-
         <TextView
             android:id="@+id/ingredients_tv"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text=""
             app:layout_constraintLeft_toRightOf="@+id/ingredients_label"
@@ -142,7 +125,6 @@
             android:layout_marginTop="30dp"
             android:layout_marginRight="16dp"
             android:layout_marginLeft="53dp"/>
-
     </android.support.constraint.ConstraintLayout>
 
 </ScrollView>
